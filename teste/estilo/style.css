@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #4E3E90;
+    --cor02: #C1C3DF;
+    --cor03: #4A77F3;
+    --cor04: #46FFFF;
+    --cor05: #06032b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: var(--cor02);
+    width: 100vw;
+    height: 140px;
+    margin: 0;
+}
+
+.nome-logo {
+    width: 20%;
+}
+
+.logo {
+    height: 100px;
+    margin: 20px;
+}
+
+.barra {
+    height: 32px;
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 81px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+    margin-left: 800px;
+}
+
+.pesq {
+    height: 26px;
+    margin-top: 83px;
+}
+
+.ft-perfil {
+    height: 100px;
+    margin: 20px;
+}
+
+ul {
+    background-color: var(--cor02);
+    width: 100%;
+}
+li {
+    list-style: none;
+    margin: 0px;
+    display: inline-flex;
+    padding: 5px 10px; 
+    margin: 0px 152px 0px 152px;
+    border: 0px solid var(--cor01); 
+    background: var(--cor01);
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
