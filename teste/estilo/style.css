@@ -81,15 +81,6 @@ li {
     justify-content: space-around
 }
 
-.submenu-cursos {
-    display: none;
-}
-
-.submenu-cursos:hover {
-    display: flex;
-    flex-direction: column;
-}
-
 main {
     display: flex;
     flex-wrap: wrap;
